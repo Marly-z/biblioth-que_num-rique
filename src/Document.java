@@ -9,7 +9,7 @@ public abstract class Document implements Empruntable {
     protected boolean disponible;
 
     //constructeur
-    public Document(int id, String titre, String auteur, String type, int page, int anne) {
+    public Document(int id, String titre, String auteur, String type, int page, int annee) {
         this.id = id;
         this.titre = titre;
         this.auteur = auteur;
