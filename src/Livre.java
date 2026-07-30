@@ -4,17 +4,5 @@ public class Livre extends Document implements Empruntable{
         super(id,titre,auteur,type,page,anne);
     }
 
-    @Override
-    public  void afficherDetail(){
-        System.out.println("Auteur:" +auteur+ "année:" +annee+ "livre:" );
-    }
-    @Override
-    public  void emprunter(){
-        System.out.println("Le vivre a été emprunté");
-    }
-
-    @Override
-    public  void retourner(){
-        System.out.println("Le vivre a été retourné");
-    }
+   
 }
