@@ -35,7 +35,7 @@ public abstract class Document implements Empruntable {
          System.out.println("Le document:" + titre + "a été retouné");
         }
     @Override
-    public boolean estdispo() {
+    public boolean estdisponible() {
         return disponible;
     }
     }
