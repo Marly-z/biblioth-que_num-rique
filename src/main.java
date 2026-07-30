@@ -5,5 +5,9 @@ public class Main {
         document.add(livre);
         document.add(Revue);
         document.add(Ebook);
+        livre.emprunter();
+        Revue.emprunter();
+        livre.retourner();
+        revue.retourner();
     }
 }
