@@ -1,5 +1,5 @@
 public interface Empruntable {
     void emprunter();
     void retourner();
-    void estdisponible();
+    boolean estdisponible();
 }
