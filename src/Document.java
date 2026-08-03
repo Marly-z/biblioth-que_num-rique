@@ -23,11 +23,11 @@ public abstract class Document implements Empruntable {
     // appelle les méthodes de l'interface
     @Override
     public void emprunter() {
-        if (disponible == false)
+        if (disponible == false){
         System.out.println("Le document:" + titre + "est déjà emprunté");
     } else {
         System.out.println("Le document:" +titre+ "est disponible");
-    }
+    }}
 
     @Override
     public void retourner() {
